@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    flex-direction: column;
+}
+#jarvis{
+    margin-top: 130px;
+    height:300px;
+    width:300px;
+    border-radius: 25%;
+}
+#heading{
+    color: white;
+    text-transform: capitalize;
+    width:fit-content;
+    font-family:cursive;
+ 
+}
+#j{
+    color: rgb(38, 0, 255);
+    text-transform:uppercase;
+    font-size: 40px;
+    font-family: "Agu Display", serif;
+}
+#head{
+    text-transform: capitalize;
+    color: rgb(0, 255, 213);
+    font-family: "Agu Display", serif;
+}
+#small{
+    height:150px;
+    width:200px;
+    display:none;
+    border-radius: 10%;
+}
+#click{
+    margin-top: 15px;
+    width: 450px;
+    font-size:20px;
+    height:40px;
+    background: linear-gradient(to right,rgb(171, 223, 244),rgb(53, 53, 241));
+    border-radius: 20px;
+    padding:4px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(171, 223, 244),2px 2px 10px rgb(53, 53, 241) ;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#voice{
+    width: 40px;
+    height:30px;
+}
+#click:hover{
+    box-shadow: 2px 2px 20px rgb(171, 223, 244),2px 2px 20px rgb(53, 53, 241) ;
+    /* letter-spacing:5px; */
+   
+}
